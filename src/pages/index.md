@@ -47,32 +47,32 @@ sections:
     section_id: testimonials
     subtitle: An optional subtitle of the section
     testimonialslist:
-      - author: John Doe
-        avatar: images/john_doe.jpg
+      - author: PT. Siemens Indonesia
+        avatar: /images/siemens.svg
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
-        avatar: images/jane_roe.jpg
+          Kualitas bahan bangunan sangat memuaskan, waktu pengerjaan juga
+          relatif sangat cepat. Overall, kami puas menggunakan jasa indo
+          membrane. Terima kasih.
+      - author: PT. Sumi Rubber Indonesia (Dunlop)
+        avatar: /images/dunlop-61x61.png
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
+          Pokoknya semua pekerjaan tidak ada yang perlu di komentar lagi,
+          semuanya luar biasa indah dan rapi.
     title: Testimonials
     type: testimonialsblock
   - actions:
-      - label: View Blog
-        url: blog/index.html
+      - label: Lihat semua
+        url: /blog
     component: PostsBlock
     num_posts_displayed: 2
     section_id: latest-posts
-    subtitle: An optional subtitle of the section
-    title: Latest from the Blog
+    subtitle: Dapatkan update terbaru dari kami
+    title: Terbaru dari blog
     type: postsblock
   - component: ContactBlock
     section_id: contact
-    subtitle: An optional subtitle of the section
-    title: Contact Us
+    subtitle: 'Jangan sungkan, silahkan hubungi kami'
+    title: Hubungi Kami
     type: contactblock
 menus:
   main:
