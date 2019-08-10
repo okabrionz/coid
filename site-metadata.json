@@ -1,14 +1,14 @@
 {
-  "title": "Pemasangan Tenda, Atap, Kanopi Membrane Proses Cepat",
-  "color_scheme": "light",
-  "accent_color": "pink",
+  "title": "Info Lengkap Seputar Bisnis Internet",
+  "color_scheme": "dark",
+  "accent_color": "green",
   "header": {
-    "title": "Indo Membrane",
-    "logo_img": "/images/logo.svg",
+    "title": "Bisnis Internet",
+    "logo_img": "/images/newlogo-white.png",
     "has_nav": true
   },
   "footer": {
-    "content": "&copy; Indo Membrane 2019",
+    "content": "&copy; Oka bRionZ 2019",
     "links": [],
     "has_social": true
   }
