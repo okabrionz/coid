@@ -1,51 +1,50 @@
 ---
-title: Home
+title: Indo Membrane
 sections:
-  - type: heroblock
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
-    section_id: hero
-    component: HeroBlock
+  - component: HeroBlock
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
-  - type: portfolioblock
-    title: Recent Work
-    section_id: latest-projects
-    component: PortfolioBlock
-    subtitle: An optional subtitle of the section
+      Melayani pemasangan tenda membrane lebih dari 10 tahun dan terus
+      berkembang membangun Indonesia. Desain Membrane yang menarik dan sangat
+      kreatif dan unik.
+    section_id: hero
+    title: Jasa Pemasangan Tenda Membrane Profesional
+    type: heroblock
+  - component: PortfolioBlock
     layout_style: mosaic
     num_projects_displayed: 6
-    view_all_text: View All
-    view_all_url: portfolio/index.html
-  - type: servicesblock
-    title: What We Do
+    section_id: latest-projects
+    subtitle: Projek-projek terbaru yang telah rampung kami kerjakan.
+    title: Projek Terbaru
+    type: portfolioblock
+    view_all_text: Lihat semua
+    view_all_url: /portfolio
+  - component: ServicesBlock
     section_id: services
-    component: ServicesBlock
-    subtitle: An optional subtitle of the section
     serviceslist:
-      - title: Service Title
-        content: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
-          ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla tortor at, pulvinar orci.
-      - title: Service Title
-        content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius. 
-      - title: Service title
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - title: Service title
-        content: >-
-          Aliquam pulvinar, orci ac scelerisque tempus, felis leo sagittis
-          justo, sit amet condimentum lorem nibh vel quam. Duis consectetur
-          lorem ipsum, non efficitur urna viverra et.
-  - type: testimonialsblock
-    title: Testimonials
+      - content: >-
+          Kata itu yang sering diucapkan oleh pelanggan-pelanggan kami. Dan kami
+          pun sangat senang bisa membantu pelanggan untuk menyelesaikan
+          pekerjaannya dengan cepat.
+        title: Bekerja Tepat Waktu
+      - content: >-
+          Kami adalah solusi yang tepat untuk keuangan Anda. Karena harga yang
+          kami tawarkan dapat menghemat pengeluaran Anda nantinya.
+        title: Harga Terjangkau
+      - content: >-
+          Anda akan mendapatkan bahan yang berkualitas dan asli dari vendor
+          brand-brand yang Anda pilih.
+        title: Bahan Berkualitas
+      - content: >-
+          Dengan bekal segudang pengalaman pada bidang kanopi tenda membrane,
+          Anda tidak perlu ragu lagi dengan bagaimana pekerjaan kami.
+        title: Jam Terbang Tinggi
+    subtitle: >-
+      Selalu berusaha menjadi yang terbaik dan memenuhi kebutuhan Tenda Membrane
+      Indonesia.
+    title: Mengapa Harus Kami
+    type: servicesblock
+  - component: TestimonialsBlock
     section_id: testimonials
-    component: TestimonialsBlock
     subtitle: An optional subtitle of the section
     testimonialslist:
       - author: John Doe
@@ -59,23 +58,26 @@ sections:
           Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
           convallis, interdum ligula vel, pretium diam. Integer commodo sem at
           dui sollicitudin, vel posuere justo laoreet.
-  - type: postsblock
-    title: Latest from the Blog
-    section_id: latest-posts
-    component: PostsBlock
-    subtitle: An optional subtitle of the section
-    num_posts_displayed: 2
-    actions:
+    title: Testimonials
+    type: testimonialsblock
+  - actions:
       - label: View Blog
         url: blog/index.html
-  - type: contactblock
-    title: Contact Us
-    section_id: contact
-    component: ContactBlock
+    component: PostsBlock
+    num_posts_displayed: 2
+    section_id: latest-posts
     subtitle: An optional subtitle of the section
+    title: Latest from the Blog
+    type: postsblock
+  - component: ContactBlock
+    section_id: contact
+    subtitle: An optional subtitle of the section
+    title: Contact Us
+    type: contactblock
 menus:
   main:
-    title: Home
+    title: Beranda
     weight: 1
 template: home
 ---
+
