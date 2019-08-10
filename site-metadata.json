@@ -4,18 +4,12 @@
   "accent_color": "yellow",
   "header": {
     "title": "Indo Membrane",
-    "logo_img": "/images/logo-t-100.png",
+    "logo_img": "/images/logo.svg",
     "has_nav": true
   },
   "footer": {
     "content": "&copy; Indo Membrane 2019",
-    "links": [
-      {
-        "text": "Designed by bRionZ",
-        "url": "https://www.okabrionz.com/",
-        "new_window": false
-      }
-    ],
+    "links": [],
     "has_social": true
   }
 }
